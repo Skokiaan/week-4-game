@@ -1,1 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Beatles Game</title>
 
+	<link rel="stylesheet" type="text/css" href="../week-4-game/assets/css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../week-4-game/assets/css/style.css">
+
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	
+</head>
+<body>
+<script type="text/javascript" src="../week-4-game/assets/javascript/game.js"></script>
+
+<container id="mainBody">
+	<img id = "banner" src = "../week-4-game/assets/images/banner2.jpg" alt="banner">
+	<h1>Game</h1>
+
+	<div id="instructions">
+	<br>
+		<p>You will be given a random number at the start of the game</p>
+		<p>The four Beatles are below. Even the dead ones. By clicking on a Beatle you will add a specific amount of points to your score.</p>
+		<p>You win the game by matching your total score to the target number. If you go over the target number, you lose.</p>
+		<p>The value of each Beatle is hidden from you until you click on it. {Hint: Ringo isn't necessarily the lowest value}</p>
+		<p>The value of the Beatles changes with the start of each new game.</p>
+		<br>
+
+	</div> <!-- end instructions -->
+
+	<row id="score">
+		<h2>Target Number: <div id="targetNumber"></div></h2>
+		<div class="totals" id="winTot">Wins:</div>
+		<div class="totals" id="lossTot">Losses:</div>
+				
+	</row> <!-- end score -->
+	
+	<row id="beatles"> 
+		<img class="images" id="johnImg" src="../week-4-game/assets/images/john.jpg" alt="john">
+		<img class="images" id="paulImg" src="../week-4-game/assets/images/paul.jpg" alt="paul">
+		<img class="images" id="georgeImg" src="../week-4-game/assets/images/george.jpg" alt="george">
+		<img class="images" id="ringoImg" src="../week-4-game/assets/images/ringo.jpg" alt="ringo">
+
+	</row> <!-- end pictures -->
+	<br><br>
+	<h2 id="totalScore"> Your total score:
+		
+	</h2> <!-- end totalScore -->
+
+
+
+</container>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+.images {
+	height: 200px;
+}
+
+h1 {
+	text-align: center;
+}
+
+body {
+	background-color: black;
+	color: white;
+	width: 900px;
+}
+
+#score {
+	height: 5%;
+	width: 5%;
+	background-color: #f9e9cc;
+}
+
+#instructions {
+	background-color: black;
+	color: white;
+	width: 900px;
+	text-align: center;
+}
+
+#banner{
+	height: auto;
+	margin: auto;
+	text-align: center;
+}
